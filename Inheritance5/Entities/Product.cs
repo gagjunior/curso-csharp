@@ -16,7 +16,7 @@ namespace Inheritance5.Entities
 
         public virtual string priceTag()
         {
-            return $"{Name}, ${Price:F2, CultureInfo.InvariantCulture}";
+            return $"{Name}, R$ {Price.ToString("F2", CultureInfo.InvariantCulture)}";
         }
     }
 }
