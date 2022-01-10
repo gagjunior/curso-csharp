@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
-namespace Inheritance5.Entities
+
+namespace InheritanceAndPolymorphism.Entities
 {
     class Product
     {

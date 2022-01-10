@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Inheritance5.Entities
+namespace InheritanceAndPolymorphism.Entities
 {
     class UsedProduct: Product
     {

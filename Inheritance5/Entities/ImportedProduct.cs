@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Text;
 
-namespace Inheritance5.Entities
+namespace InheritanceAndPolymorphism.Entities
 {
     class ImportedProduct : Product
     {

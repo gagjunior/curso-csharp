@@ -1,7 +1,7 @@
-﻿using Inheritance5.Entities;
+﻿using InheritanceAndPolymorphism.Entities;
 using System.Globalization;
 
-namespace Inheritance5
+namespace InheritanceAndPolymorphism
 {
     class Program
     {
