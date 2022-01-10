@@ -30,13 +30,22 @@ namespace AbstractMethods
                 {
                     Console.Write("Health expenditures: ");
                     double healthExpenditures = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    taxPayers.Add(new Individual(name, anualIncome, healthExpenditures);
+                    taxPayers.Add(new Individual(name, anualIncome, healthExpenditures));
                 }
                 else
                 {
                     Console.Write("Number of employees: ");
-
+                    int numberOfEmployees = int.Parse(Console.ReadLine());
+                    taxPayers.Add(new Company(name, anualIncome, numberOfEmployees));
                 }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("TAXES PAID");
+
+            foreach (TaxPayer taxPayer in taxPayers)
+            {
+                Console.WriteLine(taxPayer.ToString());
             }
         }
     }
